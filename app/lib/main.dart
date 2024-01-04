@@ -11,6 +11,7 @@ void main() {
 }
 
 // https://love-live.fandom.com/wiki/Kanata_Konoe?file=Kanata_Logo.png
+// ignore: constant_identifier_names
 const KANATA_COLOR = Color(0xffb5528f);
 
 class App extends StatelessWidget {

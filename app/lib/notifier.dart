@@ -6,7 +6,7 @@ class DurationNotifier extends ChangeNotifier {
   int _totalTimeInMinutes = 0;
   int get hours => _totalTimeInMinutes ~/ 60;
   int get minutes => _totalTimeInMinutes % 60;
-  // ignore: constant_identifier_names
+  // ignore: constant_identifier_names, non_constant_identifier_names
   final int DEFAULT_TOTAL_TIME_IN_MINUTES = 60;
   int get totalTimeInMinutes => _totalTimeInMinutes;
   set totalTimeInMinutes(int totalTimeInMinutes) {
